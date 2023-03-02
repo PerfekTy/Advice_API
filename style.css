@@ -46,16 +46,21 @@ body {
   height: 20px;
 }
 
+.btn-wrapper {
+  width: 100%;
+  position: absolute;
+  left: 0%;
+  bottom: -40px;
+  text-align: center;
+}
+
 .get-advice {
   background: url(./images/icon-dice.svg) hsl(150, 100%, 66%) no-repeat;
   background-position: center;
-  width: 60px;
   aspect-ratio: 1;
+  width: 60px;
   border-radius: 100px;
   border: none;
-  position: absolute;
-  left: 46%;
-  bottom: -30px;
   cursor: pointer;
 }
 
